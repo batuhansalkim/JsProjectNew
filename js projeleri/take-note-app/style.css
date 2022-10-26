@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html,body{
+    width: 50%;
+    margin: 0 auto;
+}
+.content{
+    width: 360px;
+    
+}
+.container{
+    border: 2px solid black;
+    height: 600px;
+    background: #999;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.container #inputField{
+    height: 50px;
+    border: 1px solid #999;
+    font-size: 25px;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.container #addButon{
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid gold;
+    transition: ease 0.5s;
+}
+.container #addButon:hover{
+    background-color: aqua;
+}
+.todo{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: darkblue;
+}
+.todo li{
+    list-style: decimal-leading-zero;
+}
+
+
+
+
+
+
+
+
+
+
+

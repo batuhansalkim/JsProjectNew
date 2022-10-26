@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow-y: hidden;
+    background-color: #121212;
+}
+.timer{
+    background-color: #ddd;
+    padding: 10px;
+    font-size: 100px;
+    border-radius: 8px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+

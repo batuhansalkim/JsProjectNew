@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.clock-container{
+    background-color: rgba(0, 0, 0, 0.929);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    position: relative;
+    top: 150px; 
+}
+h2{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.clock{
+    background-color: #9CA27E;
+    height: 15vh;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow:10px 10px 0 0 rgb(78, 78, 78) ;
+}
+
+.items p{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+}
+.date p{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+
+
