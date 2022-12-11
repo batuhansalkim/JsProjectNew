@@ -7,8 +7,11 @@ let clearToDo = document.getElementById("clearToDo");
 
 addToDoButton.addEventListener("click", function(){
     let paragraph = document.createElement('p');
+
     paragraph.classList.add('paragraph-styling');
+
     toDoContainer.appendChild(paragraph);
+    
     paragraph.innerHTML=inputText.value;
     inputText.value="";
     
